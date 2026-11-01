@@ -1,0 +1,5 @@
+series,r_f,delta_c,m,r_d
+r_f,N/A,N/A,N/A,N/A
+delta_c,N/A,1,-1,1
+m,N/A,-1,1,-1
+r_d,N/A,1,-1,1

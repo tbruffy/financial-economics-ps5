@@ -1,0 +1,25 @@
+{
+  "repository": "financial-economics-ps5",
+  "problem": "Assignment 1 Problem 1(d)",
+  "frequency": "annual",
+  "T": 100000,
+  "seed": 42,
+  "random_generator": "NumPy Generator with PCG64",
+  "parameters": {
+    "sigma": 0.036,
+    "mu": 0.018,
+    "gamma": 10.0,
+    "beta": 0.99
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "units": "Natural-log units; growth and returns are annual; m is log SDF.",
+  "sample_std": "ddof=1; exactly constant arrays return zero",
+  "acf1": "sum((x[1:]-mean(x))*(x[:-1]-mean(x)))/sum((x-mean(x))**2)",
+  "N/A": "Undefined because one or both variables have zero variance.",
+  "burn_in": "None: all draws are IID and stationary from the first observation.",
+  "saved_full_paths": false
+}
